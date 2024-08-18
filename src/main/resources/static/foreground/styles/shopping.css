@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+    padding: 10px;
+    font-family: 'Poppins',sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 2000px;
+    transform-style: preserve-3d;
+}
+.container.box{
+    width: 200px;
+    height: 200px;
+}
